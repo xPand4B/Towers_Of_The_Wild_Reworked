@@ -10,6 +10,7 @@ echo ""
 echo "[${green}1${reset}] Change towers to 'regular'"
 echo "[${green}2${reset}] Change towers to 'fwaystones'"
 echo "[${green}3${reset}] Change towers to 'waystones'"
+echo "[${green}4${reset}] Change towers to 'sswaystones'"
 
 echo ""
 read -p "Select your option [${green}1${reset}/${green}2${reset}/${green}3${reset}]: " input
@@ -30,6 +31,7 @@ topFileName="top.json"
 
 intendation="                "
 regularPrefix=""
+serverSideWaystonesPrefix="sswaystones_"
 fabricWaystonesPrefix="fwaystones_"
 waystonesPrefix="waystone_"
 
@@ -77,4 +79,16 @@ if [ $input -eq 3 ]; then
     replaceLocation "$waystonesPrefix" "$ocean"
     replaceLocation "$waystonesPrefix" "$oceanWarm"
     replaceLocation "$waystonesPrefix" "$regular"
+fi
+
+# SERVER SIDE WAYSTONES TOWERS
+#####################################
+if [ $input -eq 4 ]; then
+    replaceLocation "$serverSideWaystonesPrefix" "$derelict"
+    replaceLocation "$serverSideWaystonesPrefix" "$derelictGrass"
+    replaceLocation "$serverSideWaystonesPrefix" "$ice"
+    replaceLocation "$serverSideWaystonesPrefix" "$jungle"
+    replaceLocation "$serverSideWaystonesPrefix" "$ocean"
+    replaceLocation "$serverSideWaystonesPrefix" "$oceanWarm"
+    replaceLocation "$serverSideWaystonesPrefix" "$regular"
 fi
