@@ -15,7 +15,7 @@ If you are running 1.18.1 or lower please refer to the branch for [1.17.x](https
 * [Getting started](#getting-started)
   * [Features](#features)
 * [How to install](#how-to-install)
-* [Contributer](#contributer)
+* [Contributors](#contributors)
 
 
 ## Getting started
@@ -30,7 +30,7 @@ This will make your explorations a bit more exciting !
 
 At the top of the tower *(which is purposely not so easy to climb)*, you will find a chest with some loot, as well as a nice view :)
 
-Plus, it is also compatible with the [Waystones (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/waystones-fabric) and [Fabric Waystones](https://www.curseforge.com/minecraft/mc-mods/fabric-waystones) mod. If you have one of these mods installed a waystone will spawn on top of each tower.
+Plus, it is also compatible with the [Waystones (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/waystones-fabric), the [Fabric Waystones](https://www.curseforge.com/minecraft/mc-mods/fabric-waystones) and the [Server-Side Waystones](https://modrinth.com/mod/sswaystones) mod. If you have one of these mods installed a waystone will spawn on top of each tower.
 
 This pack does not add any blocks or items to the game *(if that matters to you)*.
 
@@ -49,7 +49,7 @@ This pack does not add any blocks or items to the game *(if that matters to you)
 
 ### Features
 * **Compatible with Vanilla, Fabric and Forge!**
-  * If [Waystones (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/waystones-fabric) or [Fabric Waystones](https://www.curseforge.com/minecraft/mc-mods/fabric-waystones) mod is active, waystones can spawn on top of each tower!
+  * If [Waystones (Fabric Edition)](https://www.curseforge.com/minecraft/mc-mods/waystones-fabric), [Fabric Waystones](https://www.curseforge.com/minecraft/mc-mods/fabric-waystones) or [Server-Side Waystones](https://modrinth.com/mod/sswaystones) is active, waystones can spawn on top of each tower!
     * **Only install one of them!**
 * Randomly generating Towers in your world
 * Great loot on top of every Tower!
@@ -59,9 +59,12 @@ This pack does not add any blocks or items to the game *(if that matters to you)
 ## How to install
 Simply put the file `Towers_Of_The_Wild-*.zip` inside the `.minecraft/saves/{WORLD}/datapacks` directory.
 
-## Contributer
+## Contributors
 * [idrae_](https://github.com/Idrae) *(original author)*
 * [RawPineapple](https://github.com/RawPineapple) *(translation for zh_cn)*
 * [DracoExE](https://github.com/DracoExE) *(translation for es_cl)*
 * [scarf005](https://github.com/scarf005) *(translation for ko_kr)*
 * [WelpSTudenT](https://github.com/WelpSTudent)
+* [oskardotglobal](https://github.com/oskardotglobal) *(compatibility with Server-Side Waystones)*
+* [Morio187](https://github.com/Morio187) *(compatibility with Server-Side Waystones)*
+
